@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "../src/Components/Card/Card";
+import ArrowHeader from "../src/Components/ArrowHeader/Header";
+import AddStep from "../src/Components/AddStep/AddStep";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "30px" }} className="App">
+      <h2>PROCESS FLOW</h2>
+      <ArrowHeader />
+      <Card />
+      <AddStep />
     </div>
   );
 }

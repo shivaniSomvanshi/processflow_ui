@@ -1,0 +1,20 @@
+.arrowHeaders {
+  display: flex;
+}
+.arrow_headerOne {
+  clip-path: polygon(0 0, 93% 0, 100% 50%, 93% 100%, 0 100%, 0 53%);
+  width: 535px;
+  color: #e8eae6;
+  background-color: #433d3c;
+  padding: 0px 0 5px 35px;
+  height: 70px;
+}
+
+.arrow_headerTwo {
+  clip-path: polygon(29% 0, 75% 0%, 100% 50%, 75% 100%, 29% 98%, 55% 48%);
+  width: 120px;
+  background-color: #cfdac8;
+  height: 70px;
+  /* border: 1px solid red; */
+  transform: translateX(-40px);
+}

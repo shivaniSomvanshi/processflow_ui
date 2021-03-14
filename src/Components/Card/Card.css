@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+section {
+  width: 180px;
+  /* margin: 0 auto; */
+  margin-top: 10px;
+}
+
+.wrapper {
+  width: 500px;
+  position: relative;
+  border: 2px solid green;
+  padding: 5px;
+  border-left: 40px solid green;
+  display: inline-block;
+}
+
+.wrapper h3 {
+  color: white;
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  margin-left: -30px;
+  transform: rotate(270deg);
+  transform-origin: 0 0;
+}
+
+.pinIcon {
+  transform: translateY(7px);
+}
+
+.rightSide {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  padding: 20px;
+}
+
+.arrow_header {
+  width: 500px;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.row p {
+  /* display: inline-block;
+  position: absolute;
+  right: 5px; */
+  color: gray;
+  font-weight: bold;
+}
+
+.row .radio_text {
+  font-weight: bold;
+  /* transform: translateX(-20px); */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag p {
+  background-color: #ff8e71;
+  color: aliceblue;
+  padding: 5px;
+  cursor: pointer;
+}
+.flag span {
+  margin-left: 5px;
+}
+.clipText {
+  color: grey;
+  background-color: #f4eeed;
+  padding: 0px 10px 5px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+.radio_icon {
+  transform: translateX(-13px);
+}
